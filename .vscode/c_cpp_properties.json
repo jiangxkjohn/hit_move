@@ -1,0 +1,55 @@
+{
+    "configurations": [
+        {
+            "browse": {
+                "databaseFilename": "",
+                "limitSymbolsToIncludedHeaders": true
+            },
+            "includePath": [
+                "/home/ros/ros_project/nav/devel/include/**",
+                "/home/ros/ros_project/dashgo/devel/include/**",
+                "/home/ros/ros_project/nav_robot/devel/include/**",
+                "/home/ros/cpp_project/ROS_Learning/my_first_ros/devel/include/**",
+                "/home/ros/ros_project/ros_handsfree/devel/include/**",
+                "/opt/ros/kinetic/include/**",
+                "/home/ros/cpp_project/ROS_Learning/my_first_ros/src/action/include/**",
+                "/home/ros/ros_project/nav_robot/src/src/amcl/include/**",
+                "/home/ros/ros_project/ros_handsfree/src/base_simple_controller/include/**",
+                "/home/ros/ros_project/nav_robot/src/src/camera/include/**",
+                "/home/ros/ros_project/nav_robot/src/src/costmap_2d/include/**",
+                "/home/ros/ros_project/dashgo/src/dashgo/dashgo_driver/include/**",
+                "/home/ros/ros_project/dashgo/src/dashgo/dashgo_rviz/include/**",
+                "/home/ros/ros_project/dashgo/src/dashgo/dashgo_tools/include/**",
+                "/home/ros/ros_project/nav_robot/src/src/global_planner/include/**",
+                "/home/ros/ros_project/dashgo/src/go/include/**",
+                "/home/ros/ros_project/ros_handsfree/src/handsfree_hw/include/**",
+                "/home/ros/ros_project/dashgo/src/dashgo/hector_exploration_planner/include/**",
+                "/home/ros/ros_project/nav/src/hit/include/**",
+                "/home/ros/ros_project/nav/src/jxkGo/include/**",
+                "/home/ros/ros_project/nav_robot/src/src/laser_filter/include/**",
+                "/home/ros/cpp_project/ROS_Learning/my_first_ros/src/learning_parameter/include/**",
+                "/home/ros/cpp_project/ROS_Learning/my_first_ros/src/learning_service/include/**",
+                "/home/ros/cpp_project/ROS_Learning/my_first_ros/src/learning_topic/include/**",
+                "/home/ros/ros_project/nav_robot/src/src/map_server/include/**",
+                "/home/ros/ros_project/nav_robot/src/nav/include/**",
+                "/home/ros/ros_project/nav_robot/src/src/navigation/include/**",
+                "/home/ros/ros_project/nav_robot/src/src/navigation_layers/range_sensor_layer/include/**",
+                "/home/ros/ros_project/nav/src/ridar_calibration/include/**",
+                "/home/ros/ros_project/nav_robot/src/src/robot_pose_ekf/include/**",
+                "/home/ros/ros_project/nav_robot/src/src/savvy/include/**",
+                "/home/ros/ros_project/nav_robot/src/src/savvy_teleop/include/**",
+                "/home/ros/ros_project/nav_robot/src/src/sick_tim/include/**",
+                "/home/ros/ros_project/nav_robot/src/src/tcp_server/include/**",
+                "/home/ros/ros_project/nav_robot/src/src/trajectory_tracking/include/**",
+                "/home/ros/ros_project/dashgo/src/walk/include/**",
+                "/usr/include/**"
+            ],
+            "name": "ROS",
+            "intelliSenseMode": "gcc-x64",
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c11",
+            "cppStandard": "c++17"
+        }
+    ],
+    "version": 4
+}

@@ -1,0 +1,15 @@
+radiusPID_KP : -1
+radiusPID_KI : 0
+radiusPID_KD : 0
+
+anglePID_KP : -0.08
+anglePID_KI : 0
+anglePID_KD : 0
+
+max_velocity_radius : 0.4
+max_velocity_angle : 0.8
+
+max_radius_error : 0.02
+max_angle_error : 0.1
+
+PID_period : 0.01

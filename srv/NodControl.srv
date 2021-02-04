@@ -1,0 +1,11 @@
+# 该srv格式是课题三底盘部分云台控制service
+# service名称为/hit/nod_service
+
+# 云台位置代号, -1为使用具体的位置
+int8 code
+# 云台角度
+int32 angle
+---
+# 该service的response
+# 0为未完成，1为完成
+int8 result

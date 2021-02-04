@@ -1,0 +1,7 @@
+<launch>
+    <rosparam file="$(find hit)/config/PID_params.yaml" command="load" ns="/hit/PID"/>
+    <rosparam file="$(find hit)/config/head_pose_list.yaml" command="load" ns="/hit/head"/>
+    <node name="hit" pkg="hit" type="hit_node" output="screen">
+        <!-- <remap from="/cmd_vel" to="/turtle1/cmd_vel"/> -->
+    </node>
+</launch>

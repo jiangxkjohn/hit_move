@@ -1,0 +1,6 @@
+head_pose_list :
+- { code: 0, angle: 0}
+- { code: 1, angle: 300}
+- { code: 2, angle: -900}
+- { code: 3, angle: -200}
+- { code: 4, angle: -400}

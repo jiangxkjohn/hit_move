@@ -1,0 +1,20 @@
+# 该srv格式是课题三底盘部分的单个目标运动service
+# service名称为/hit/move_service
+
+# 机器人运动命令代号
+# 0 为粗定位模式，1为精定位模式，2为自主精定位导航模式
+int8 type
+# 机器人位姿格式
+# 0 为绝对坐标模式，1为相对坐标模式
+int8 relative
+# 下面是机器人的坐标和位置
+float64 x # 机器人的x坐标或者是相对坐标
+float64 y # 机器人的y坐标或者是相对坐标
+float64 z # 机器人的四元数z（绝对位置）或者是转动的角度（相对位置）
+float64 w # 机器人的四元数w（绝对位置）
+float64 v # 机器人的运动速度
+float64 rv # 机器人的转动角速度
+---
+# 该service的response
+# 0为未完成，1为完成
+int8 result
